@@ -2,10 +2,23 @@
 //
 
 #include <iostream>
+using namespace std;
+
+namespace ries {
+    void print() {}
+}
 
 int main()
 {
-    std::cout << "Hello World! Goodbye! \n";
+    ries::print();
+
+    cout << "Hello World! Goodbye! \n";
+
+
+    cout << "Enter Age: ";
+    int age;
+    cin >> age;
+    cout << "Age: " << age << std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
